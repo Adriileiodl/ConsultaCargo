@@ -29,3 +29,37 @@ async function consultar() {
         <p><b>Rank:</b> ${dados.rank ?? "-"}</p>
     `;
 }
+function mostrarHierarquia() {
+
+    const div = document.getElementById("hierarquia");
+
+    if (div.style.display === "block") {
+        div.style.display = "none";
+        return;
+    }
+
+    div.style.display = "block";
+
+    div.innerHTML = `
+        <h2>Hierarquia do Exército</h2>
+
+        <p>👑 Marechal</p>
+        <p>⭐ General de Exército</p>
+        <p>⭐ General de Divisão</p>
+        <p>⭐ General de Brigada</p>
+        <p>🎖 Coronel</p>
+        <p>🎖 Tenente-Coronel</p>
+        <p>🎖 Major</p>
+        <p>🪖 Capitão</p>
+        <p>🪖 Primeiro-Tenente</p>
+        <p>🪖 Segundo-Tenente</p>
+        <p>🟢 Aspirante</p>
+        <p>🟢 Subtenente</p>
+        <p>🟢 Primeiro-Sargento</p>
+        <p>🟢 Segundo-Sargento</p>
+        <p>🟢 Terceiro-Sargento</p>
+        <p>🔰 Cabo</p>
+        <p>🔰 Soldado</p>
+        <p>🥾 Recruta</p>
+    `;
+}

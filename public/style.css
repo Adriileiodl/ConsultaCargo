@@ -84,3 +84,19 @@ button:hover{
     font-size:22px;
 
 }
+#hierarquia{
+
+    margin-top:20px;
+    background:#1b1b1b;
+    padding:20px;
+    border-radius:10px;
+    color:white;
+    text-align:left;
+
+}
+
+#hierarquia p{
+
+    margin:8px 0;
+
+}

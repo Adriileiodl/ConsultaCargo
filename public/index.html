@@ -20,15 +20,21 @@
     <input
         type="text"
         id="nick"
-        placeholder="Digite o nick do Roblox..."
+        placeholder="Nick do Roblox..."
     >
 
     <br>
 
-    <button onclick="consultar()">
-        🔍 Consultar
+    <button onclick="Pesquisar()">
+        🔍 Pesquisar
     </button>
+<br><br>
 
+<button onclick="mostrarHierarquia()">
+    🪖 Ver Hierarquia
+</button>
+
+<div id="hierarquia" style="display:none;"></div>
     <div id="resultado"></div>
 
 </div>
