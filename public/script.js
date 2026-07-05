@@ -42,7 +42,8 @@ function mostrarHierarquia() {
 
     div.innerHTML = `
         <h2>Hierarquia do Exército</h2>
-
+        <p>👑 SubComandante</p>
+        <p>👑 Comandante</p>
         <p>👑 Marechal</p>
         <p>⭐ General de Exército</p>
         <p>⭐ General de Divisão</p>
