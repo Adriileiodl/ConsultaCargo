@@ -100,3 +100,35 @@ button:hover{
     margin:8px 0;
 
 }
+#regras{
+
+    margin-top:20px;
+    background:#1b1b1b;
+    padding:25px;
+    border-radius:10px;
+    color:white;
+    text-align:left;
+
+}
+
+#regras h2{
+
+    color:#4CAF50;
+    text-align:center;
+
+}
+
+#regras h3{
+
+    color:#FFD54F;
+    margin-top:20px;
+
+}
+
+#regras p{
+
+    color:white;
+    margin:10px 0;
+    line-height:1.6;
+
+}
